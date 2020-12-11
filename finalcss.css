@@ -1,0 +1,96 @@
+header img {
+	margin: 0 auto;
+	display:block;
+}
+main {
+	max-width:1200px;
+	margin: 0 auto;
+}
+footer {
+	max-width:1200px;
+	margin: 0 auto;
+}
+nav {
+	max-width:2000px;
+	text-align:center;
+	display:inline;
+}
+nav ul {
+	margin:0 auto;
+}
+nav li {
+	display:inline;
+	padding: 4px 5px;
+	border-radius:5px;
+	font-size:1.35em;
+	text-align:center;
+}
+nav li:hover {
+	background-color:#075FF6;
+}
+nav a:visited{
+	color: #00138e;
+}
+nav a {
+	text-decoration:none;
+}
+img {
+	margin: 0 auto;
+	display:block;
+}
+h1 {
+	text-align:center;
+}	
+h2{
+	color:#585858;	
+	text-align:left;
+	font-size:3em;
+	padding: 20px 20px 10px 50px;
+	font-family: 'Raleway', sans-serif;
+}	
+h3 {
+	text-align:center;
+}
+h4 {
+	text-align:center;
+	font-size:1.3em;
+}
+h5 {
+	text-align:center;
+	color:#585858;
+	font-family: 'Montserrat', sans-serif;
+	padding:0px 20px 10px 50px;
+}
+p {
+	text-align:left;
+	color:black;
+	padding:0px 20px 10px 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:1.1em;
+}
+b {
+	text-align:center;
+}
+.header{
+	 background-image: url("images/lightbluebackground2.jpg");
+	 background-position: center;	
+}
+.rightfloat {
+	float:right;
+	margin:1em;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+/* CSS for Tablets */
+@media only screen and (max-width: 1024px){
+	h1 {
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones */
+@media only screen and (max-width: 768px){
+		h1 {
+		font-size: 1.5em;
+	}
+}
